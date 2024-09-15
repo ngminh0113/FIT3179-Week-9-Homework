@@ -1,15 +1,15 @@
-"State","Type of Energy","GWh"
-"New South Wales","Total non-renewable",48489.9
-"New South Wales","Total renewable",24579.8
-"Victoria","Total non-renewable",33411.7
-"Victoria","Total renewable",21556.086
-"Queensland","Total non-renewable",53579.7
-"Queensland","Total renewable",17159.297
-"Western Australia","Total non-renewable",36841.251
-"Western Australia","Total renewable",7636.963
-"South Australia","Total non-renewable",4146.455
-"South Australia","Total renewable",11362.41
-"Tasmania","Total non-renewable",206.236
-"Tasmania","Total renewable",10498.456
-"Northern Territory","Total non-renewable",4687.446
-"Northern Territory","Total renewable",319.194
+"State","Latitude","Longtitude","Type of Energy","GWh"
+"New South Wales",-33.8688,151.2093,"Total non-renewable",48489.9
+"New South Wales",-33.8688,151.2093,"Total renewable",24579.8
+"Victoria",-37.8136,144.9631,"Total non-renewable",33411.7
+"Victoria",-37.8136,144.9631,"Total renewable",21556.086
+"Queensland",-27.4698,153.0251,"Total non-renewable",53579.7
+"Queensland",-27.4698,153.0251,"Total renewable",17159.297
+"Western Australia",-31.9505,115.8605,"Total non-renewable",36841.251
+"Western Australia",-31.9505,115.8605,"Total renewable",7636.963
+"South Australia",-34.9285,138.6007,"Total non-renewable",4146.455
+"South Australia",-34.9285,138.6007,"Total renewable",11362.41
+"Tasmania",-42.8821,147.3272,"Total non-renewable",206.236
+"Tasmania",-42.8821,147.3272,"Total renewable",10498.456
+"Northern Territory",-12.4634,130.8456,"Total non-renewable",4687.446
+"Northern Territory",-12.4634,130.8456,"Total renewable",319.194
