@@ -455,7 +455,6 @@
 148.987218387,-35.214189436,"Belconnen","Renewable",1,1
 151.693612516,-32.964255376,"Charlestown Square","Non Renewable",2.8,1
 150.990503812,-33.8381155499999,"Club Merrylands","Non Renewable",0.8,1
-142.962503965,-37.118074991,"Bulgana  Wind Farm","Renewable",NA,NA
 143.455319348,-35.676153948,"Gannawarra Solar Farm","Renewable",60,NA
 144.240752974,-37.7281319049999,"Yaloak South Wind Farm","Renewable",131,NA
 143.801944242,-38.258690853,"Mt Gellibrand Wind Farm","Renewable",189,NA
@@ -463,12 +462,8 @@
 144.162196454,-37.740232513,"Moorabool South Wind Farm","Renewable",131,NA
 149.865184482,-34.431441169,"Taralga Wind Farm","Renewable",107,NA
 148.718032991,-33.173281545,"Manildra Solar Farm","Renewable",46,NA
-151.553545527,-29.764763122,"White Rock Solar Farm","Renewable",NA,NA
-151.544356333,-29.7621823269999,"White Rock Wind Farm","Renewable",NA,NA
 151.411940162,-29.699725864,"Sapphire Wind Farm","Renewable",270,NA
 146.109415,-34.315532,"Griffith Solar Farm","Renewable",36,NA
-141.268646352,-31.8067606879999,"Silverton Wind Farm","Renewable",NA,NA
-145.953396594,-34.7434387709999,"Coleambally Solar Farm","Renewable",NA,NA
 142.745232087,-34.689897899,"Bannerton Solar Farm","Renewable",88,NA
 142.545653689,-34.8026762979999,"Wemen Solar Farm","Renewable",110,NA
 142.318190454,-36.433260789,"Murra Warra Wind Farm","Renewable",429,NA
@@ -508,7 +503,6 @@
 149.13440859,-21.1634509969999,"Racecourse Mill","Renewable",3.5,1
 143.079430559,-37.238518142,"Ararat Wind Farm","Renewable",240,75
 138.556216366,-33.042839057,"Hornsdale Wind Farm","Renewable",310,99
-136.307945029,-16.0540911209999,"Borroloola Community","Non Renewable",NA,NA
 136.687238875,-12.1889387579999,"Nhulunbuy","Non Renewable",24,NA
 136.420872975,-13.8584112529999,"Angurugu","Non Renewable",3.6,3
 132.920896283,-12.6829025279999,"Ranger Mine","Non Renewable",30,NA
@@ -525,13 +519,10 @@
 148.134714826,-23.5083648029999,"Emerald Solar Farm","Renewable",68,NA
 139.492437601,-35.270796138,"Tailem Bend Solar Farm","Renewable",95,NA
 137.557191851,-32.564507534,"Lincoln Gap","Renewable",10,NA
-145.949282851,-38.7467995,"Bald Hill Wind Farm","Renewable",NA,NA
 145.474552015,-36.159248458,"Numurkah Solar Farm","Renewable",100,NA
 143.1537151,-37.12155984,"Crowlands Wind Farm","Renewable",80,NA
 141.747382959,-36.3965831849999,"Kiata Wind Farm","Renewable",31.05,NA
 147.748062967,-20.4948827499999,"Whitsunday Solar Farm","Renewable",69,NA
 147.767079619,-20.504819379,"Hamilton Solar Farm","Renewable",69,NA
-152.405036368,-25.292765529,"Childers Solar Farm","Renewable",NA,NA
 146.888496595,-19.3354561109999,"Sun Metals Solar Farm","Renewable",124,NA
 139.480343394,-20.743688536,"Xstata X41","Non Renewable",30,14
-119.506081388,-23.2031675649999,"Hope Downs 4 Iron Ore Mine","Non Renewable",NA,10
