@@ -1,0 +1,12 @@
+html, body {
+    height: 100%;             /* Make sure both html and body take full height */
+    margin: 0;                /* Remove default margin */
+    display: flex;            /* Apply flexbox to the body */
+    justify-content: center;  /* Horizontally center the content */
+    align-items: center;      /* Vertically center the content */
+  }
+  
+#symbol_map {
+    /*width: 800px;             
+    height: 600px;*/         
+  }
