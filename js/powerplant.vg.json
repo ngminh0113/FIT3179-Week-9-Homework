@@ -1,0 +1,53 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 1000,
+    "height": 700,
+    "title": "Major Power Station in Australia",
+    "projection": {
+      "type": "mercator",
+      "center": [133.7751, -25.2744]
+    },
+    "layer": [
+        {
+            "mark": {"type": "rect", "color": "#cceeff"},
+            "data": {
+              "values": [{}] 
+            },
+            "encoding": {
+              "x": {"value": 0},
+              "x2": {"value": 1000},  
+              "y": {"value": 0},
+              "y2": {"value": 700}  
+            }
+          },      
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/ngminh0113/FIT3179-Week-9-Homework/5b11340ddaf8cd0602a46bb8817bbca182ec1206/js/STE_2016_AUST.topojson",
+          "format": {"type": "topojson", "feature": "STE_2016_AUST"}
+        },
+        "mark": {"type": "geoshape", "fill": "white", "stroke": "lightgrey"}
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/ngminh0113/FIT3179-Week-9-Homework/d1e51430ce803b270ff6b58b970eca41c081ed77/data/powerplant_w9.csv"
+        },
+        "mark": {"type": "circle", "tooltip": {"content": "data"}},
+        "encoding": {
+          "longitude": {"field": "X", "type": "quantitative"},
+          "latitude": {"field": "Y", "type": "quantitative"},
+          "size": {
+            "field": "generationmw",
+            "type": "quantitative",
+            "title": "Energy Generation (MW)",
+            "scale": {"domain": [0.01, 2880]}
+          },
+          "color": {
+          "field": "class",
+          "type": "nominal",
+          "title": "Type of Energy",
+          "scale": {"range": ["gray", "green"]}
+          }
+        }
+      }
+    ]
+  }
