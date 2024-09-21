@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 1000,
     "height": 700,
-    "title": "Major Power Station in Australia",
+    "title": "Major Power Stations in Australia",
     "projection": {
       "type": "mercator",
       "center": [133.7751, -25.2744]
@@ -46,7 +46,15 @@
           "type": "nominal",
           "title": "Type of Energy",
           "scale": {"range": ["gray", "green"]}
-          }
+          },
+          "tooltip": [
+          {"field": "X", "type": "quantitative", "title": "Longitude"},
+          {"field": "Y", "type": "quantitative", "title": "Latitude"},
+          {"field": "name", "type": "nominal", "title": "Power Plant Name"},
+          {"field": "generationmw", "type": "quantitative", "title": "Energy Generation (MW)"}, 
+          {"field": "class", "type": "nominal", "title": "Energy Type"},
+          {"field": "generatornumber", "type": "quantitative", "title": "Number of Generators"}
+        ]
         }
       }
     ]
